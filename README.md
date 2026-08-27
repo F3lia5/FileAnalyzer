@@ -17,8 +17,8 @@ Basit bir Python scripti: bulunduğu (veya çalıştırıldığı) dizindeki dos
 
 ```bash
 # Repoyu klonla
-git clone https://github.com/kullanici-adi/python-file-analyzer.git
-cd python-file-analyzer
+git clone https://github.com/F3lia5/FileAnalyzer.git
+cd FileAnalyzer
 
 # (Opsiyonel ama önerilir) sanal ortam oluştur
 python3 -m venv env
