@@ -4,10 +4,10 @@ import os
 print("------------------------------------------")
 print(f"Current working directory: {os.getcwd()}")
 
-file_count = len(os.listdir())
+files = [f for f in os.listdir() if os.path.isfile(f)]
+file_count = len(files)
 print(f"Number of files: {file_count}")
 
-files = [f for f in os.listdir() if os.path.isfile(f)]
 file_extensions = [os.path.splitext(file)[1] for file in files]
 extension_list = list(set(file_extensions))
 
