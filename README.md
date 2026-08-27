@@ -60,13 +60,12 @@ File extensions:
 
 ## Bilinen Sınırlamalar
 
-- `os.listdir()` kullanıldığı için mevcut yol altındaki **klasörler de** listeye dahil olur (sadece dosyalar değil). Klasörlerin uzantısı boş (`''`) olarak görünür.
 - Script yalnızca çalıştırıldığı dizini tarar; alt dizinlere inmez.
 - Uzantısız dosyalar (`Makefile`, `LICENSE` gibi) boş uzantı (`''`) olarak sayılır.
 
 ## Yapılacaklar / Geliştirme Fikirleri
 
-- [ ] Klasörleri hariç tutan bir filtre ekle (`os.path.isfile`)
+- [✅] Klasörleri hariç tutan bir filtre ekle (`os.path.isfile`)
 - [ ] Farklı bir dizin yolu belirtebilmek için komut satırı argümanı ekle (`argparse`)
 - [ ] Alt dizinlere de inebilen (`os.walk`) bir mod ekle
 - [ ] Uzantıya göre dosya sayısını gruplandırıp gösterme
